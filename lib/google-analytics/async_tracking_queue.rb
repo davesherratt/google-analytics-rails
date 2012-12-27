@@ -14,7 +14,7 @@ module GoogleAnalytics
 
     def to_s
 <<-JAVASCRIPT
-<script type="text/javascript">
+<script>
 var _gaq = _gaq || [];
 #{@events.map { |event| event.to_s }.join("\n")}
 (function() {

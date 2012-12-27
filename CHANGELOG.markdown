@@ -3,6 +3,10 @@ Unreleased
 
 * Support for custom analytics script src (so for example DoubleClick is supported).
 
+0.0.4
+=====
+* Removed the additional javascript type as not needed in html5.
+
 0.0.3
 =====
 
